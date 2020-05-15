@@ -1,0 +1,39 @@
+
+   .box{
+       height: 100px; 
+       width: 100px; 
+       background-color: lightcoral;
+       margin-left: 20px;
+       margin-top: 20px;
+       display: inline-block;
+    }
+    .box:hover {border-radius:50%}
+
+
+    .hoverme{
+        height: 50px; 
+        width: 50px; 
+        background-color: lightseagreen;
+        animation: circle 2s forwards; 
+        display: inline-block;
+    margin-left: 20px;}
+    @keyframes circle {
+     from {border-radius: 0%;}
+     to {border-radius: 50%;}
+} 
+
+  .button{
+     height: 80px;
+     width: 80px;
+     background-color: darkolivegreen;
+     opacity: 100%;
+     margin-left: 20px;
+     display: inline-block;
+    }
+
+  .button:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 50%;
+   } 
